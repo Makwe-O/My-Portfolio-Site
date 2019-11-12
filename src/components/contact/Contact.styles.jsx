@@ -12,3 +12,7 @@ export const ContactSectionContent = styled.div`
 export const ContactSpan = styled.span`
   font-family: 'Reenie Beanie', cursive;
 `;
+
+export const ContactSocial = styled.div`
+  display: flex;
+`;

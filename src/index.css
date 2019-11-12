@@ -359,3 +359,11 @@ template {
     width: 1400px;
   }
 }
+
+canvas {
+  display: block;
+  position: absolute;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  z-index: -1;
+}
