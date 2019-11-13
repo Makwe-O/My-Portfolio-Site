@@ -1,8 +1,10 @@
 import React from 'react';
+import { Header, Image, Modal } from 'semantic-ui-react';
 import {
   PortfolioSection,
   PortfolioSectionContent,
-  PortfolioSpan
+  PortfolioSpan,
+  PortfolioModal
 } from './Portfolio.styles';
 import Heading from '../heading/Heading';
 import { data } from '../../data/data';
@@ -21,7 +23,36 @@ const Portfolio = () => {
           <div class='ui stackable four column grid'>
             {data.map(d => (
               <div className='column' key={d.id}>
-                <Card img={d.img} projectName={d.name} />
+                <Modal
+                  size={'small'}
+                  centered={false}
+                  trigger={
+                    <PortfolioModal>
+                      <Card img={d.img} projectName={d.name} />
+                    </PortfolioModal>
+                  }
+                >
+                  <Modal.Header>{d.name}</Modal.Header>
+                  <Modal.Content image>
+                    <Image wrapped size='medium' src={d.img} />
+                    <Modal.Description>
+                      <div>
+                        <span>
+                          <strong>Technologies Used</strong>:{' '}
+                        </span>
+                        <span>{d.description}</span>
+                      </div>
+                      <div>
+                        <span>
+                          <strong>Technologies Used</strong>:{' '}
+                        </span>
+                        {d.stacks.map(stack => (
+                          <span>{stack}, </span>
+                        ))}
+                      </div>
+                    </Modal.Description>
+                  </Modal.Content>
+                </Modal>
               </div>
             ))}
           </div>

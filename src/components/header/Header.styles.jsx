@@ -1,9 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 export const NavContainer = styled.div`
   display: flex;
   margin: 1.5em 0;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 480px) {
+    flex-direction: column;
+    justify-content: space-between;
+  }
 `;
 export const NavUnorderedList = styled.ul`
   display: flex;

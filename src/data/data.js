@@ -4,7 +4,8 @@ export const data = [
     name: `Author's haven`,
     img:
       'https://res.cloudinary.com/dnavbc7ny/image/upload/e_grayscale/v1573508650/Untitled-12_dhnp9h.jpg',
-    description: 'lorem ipsum',
+    description:
+      'An online platform for sharing ideas, thoughts and concepts with the world leveraging the power of the modern web. I worked as a Full Stack developer on this project. The MVP was built within 3 months',
     stacks: [
       'React',
       'Redux',
