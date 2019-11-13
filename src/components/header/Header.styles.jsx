@@ -18,7 +18,11 @@ export const NavItem = styled.li`
   list-style-type: none;
 `;
 export const NavItemLink = styled.a`
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0rem;
   font-size: 16px;
   color: #1a1a1a;
+`;
+
+export const NavLogo = styled.div`
+  width: 60px;
 `;

@@ -16,6 +16,10 @@ export const PortfolioSectionContent = styled.div`
     margin: auto 0 auto 1rem;
   }
 `;
+export const PortfolioLink = styled.div`
+padding:2em 0
+display:flex;
+justify-content:space-around`;
 
 export const PortfolioSpan = styled.span`
   font-family: "Reenie Beanie", cursive;
