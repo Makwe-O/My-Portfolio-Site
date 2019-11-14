@@ -112,6 +112,11 @@ export const skills = [
     name: 'React',
     percentage: 70
   },
+  {
+    id: 1000,
+    name: 'React Native',
+    percentage: 50
+  },
 
   {
     id: 1002,
@@ -146,7 +151,7 @@ export const skills = [
   {
     id: 1008,
     name: 'Nodejs',
-    percentage: 65
+    percentage: 60
   },
   {
     id: 1009,

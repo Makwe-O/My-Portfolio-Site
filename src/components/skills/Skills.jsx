@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <>
       <Particles params={particlesOptions} />
-      <SkillsSection>
+      <SkillsSection id='skills'>
         <SkillsSpan>{`<section>`}</SkillsSpan>
         <SkillsSectionContent>
           <Heading

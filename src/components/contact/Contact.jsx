@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <>
       <Particles params={particlesOptions} />
-      <ContactSection>
+      <ContactSection id='contact'>
         <ContactSpan>{`<section>`}</ContactSpan>
         <ContactSectionContent>
           <Heading line1={'Wanna'} line2={`Get In Touch`} />

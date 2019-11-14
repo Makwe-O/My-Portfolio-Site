@@ -18,7 +18,7 @@ const Portfolio = () => {
     <>
       <Particles params={particlesOptions} />
 
-      <PortfolioSection>
+      <PortfolioSection id='portfolio'>
         <PortfolioSpan>{`<section>`}</PortfolioSpan>
         <PortfolioSectionContent>
           <Heading line1={'Some'} line2={`of my work`} />
