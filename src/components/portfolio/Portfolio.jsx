@@ -40,7 +40,7 @@ const Portfolio = () => {
                     <Modal.Description>
                       <div>
                         <span>
-                          <strong>Technologies Used</strong>:{' '}
+                          <strong>Description</strong>:{' '}
                         </span>
                         <span>{d.description}</span>
                       </div>

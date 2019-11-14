@@ -25,7 +25,8 @@ export const data = [
     name: `Haxx Store`,
     img:
       'https://res.cloudinary.com/dnavbc7ny/image/upload/e_grayscale/v1573508649/Untitled-3_exg4wo.jpg',
-    description: 'lorem ipsum',
+    description:
+      'Haxx store is online store made to take over the likes of Asos. Little steps right?. Anyways online store to shop for various accessories. With payment integration. Dont worry its in test mode',
     stacks: ['React', 'Redux', 'Firebase', 'HTML5', 'CSS3', 'JavaScript'],
     link: 'https://haxxstore.netlify.com/',
     github: 'https://github.com/Makwe-O/HaxxStore'
@@ -35,7 +36,8 @@ export const data = [
     name: `Store Manager`,
     img:
       'https://res.cloudinary.com/dnavbc7ny/image/upload/e_grayscale/v1573508648/IMG_4466_buzkhn.jpg',
-    description: 'lorem ipsum',
+    description:
+      'Take control of your online store. Create products and categories. Sell your products and create sales records',
     stacks: [
       'React',
       'Redux',
@@ -53,7 +55,8 @@ export const data = [
     name: `Weather Man`,
     img:
       'https://res.cloudinary.com/dnavbc7ny/image/upload/e_grayscale/v1573508648/Untitled-1_n5vsye.jpg',
-    description: 'lorem ipsum',
+    description:
+      'Never be caught off guard when it comes to weather. Weather Man has your back. Get the weather from a reliable source. ',
     stacks: ['React', 'Axios', 'HTML5', 'CSS3', 'JavaScript'],
     link: 'https://makwe-o.github.io/WeatherMan/',
     github: 'https://github.com/Makwe-O/WeatherMan'
