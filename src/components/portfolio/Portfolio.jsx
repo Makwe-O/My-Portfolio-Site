@@ -1,31 +1,32 @@
-import React from "react";
-import { Image, Modal } from "semantic-ui-react";
+import React from 'react';
+import { Image, Modal } from 'semantic-ui-react';
 import {
   PortfolioSection,
   PortfolioSectionContent,
   PortfolioSpan,
   PortfolioModal,
   PortfolioLink
-} from "./Portfolio.styles";
-import Heading from "../heading/Heading";
-import { data } from "../../data/data";
-import Card from "../card/Card";
-import Particles from "react-particles-js";
-import { particlesOptions } from "../../data/particles";
+} from './Portfolio.styles';
+import Heading from '../heading/Heading';
+import { data } from '../../data/data';
+import Card from '../card/Card';
+import Particles from 'react-particles-js';
+import { particlesOptions } from '../../data/particles';
 
 const Portfolio = () => {
   return (
     <>
       <Particles params={particlesOptions} />
+
       <PortfolioSection>
         <PortfolioSpan>{`<section>`}</PortfolioSpan>
         <PortfolioSectionContent>
-          <Heading line1={"Some"} line2={`of my work`} />
-          <div class="ui stackable four column grid">
+          <Heading line1={'Some'} line2={`of my work`} />
+          <div class='ui stackable four column grid'>
             {data.map(d => (
-              <div className="column" key={d.id}>
+              <div className='column' key={d.id}>
                 <Modal
-                  size={"small"}
+                  size={'small'}
                   centered={false}
                   trigger={
                     <PortfolioModal>
@@ -35,27 +36,27 @@ const Portfolio = () => {
                 >
                   <Modal.Header>{d.name}</Modal.Header>
                   <Modal.Content image>
-                    <Image wrapped size="medium" src={d.img} />
+                    <Image wrapped size='medium' src={d.img} />
                     <Modal.Description>
                       <div>
                         <span>
-                          <strong>Technologies Used</strong>:{" "}
+                          <strong>Technologies Used</strong>:{' '}
                         </span>
                         <span>{d.description}</span>
                       </div>
                       <div>
                         <span>
-                          <strong>Technologies Used</strong>:{" "}
+                          <strong>Technologies Used</strong>:{' '}
                         </span>
                         {d.stacks.map(stack => (
                           <span>{stack}, </span>
                         ))}
                       </div>
                       <PortfolioLink>
-                        <a href={d.link} target="_blank" className="fromLeft">
+                        <a href={d.link} target='_blank' className='fromLeft'>
                           View Site
                         </a>
-                        <a href={d.github} target="_blank" className="fromLeft">
+                        <a href={d.github} target='_blank' className='fromLeft'>
                           Github
                         </a>
                       </PortfolioLink>
