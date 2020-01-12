@@ -47,7 +47,7 @@ export const data = [
       'CSS3',
       'JavaScript'
     ],
-    link: 'storemangerreact.herokuapp.com',
+    link: 'https://storemangerreact.herokuapp.com/',
     github: 'https://github.com/Makwe-O/store-manager-react'
   },
   {
