@@ -5,8 +5,8 @@ const Card = ({ img, projectName }) => {
   return (
     <CardContainer>
       <CardImage src={img} alt={projectName} />
-      <CardContent class='content'>
-        <a href='#' class='header'>
+      <CardContent className='content'>
+        <a href='#' className='header'>
           {projectName}
         </a>
       </CardContent>

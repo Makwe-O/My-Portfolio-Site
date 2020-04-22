@@ -10,11 +10,12 @@ export const CardContainer = styled.div`
 `;
 
 export const CardImage = styled.img`
+  height: 174px;
   width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  vertical-align: middle;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const CardContent = styled.div`

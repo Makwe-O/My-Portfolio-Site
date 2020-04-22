@@ -3,7 +3,7 @@ import {
   ContactSection,
   ContactSectionContent,
   ContactSpan,
-  ContactSocial
+  ContactSocial,
 } from './Contact.styles';
 import Heading from '../heading/Heading';
 import SocialMedia from '../socialMedia/SocialMedia';
@@ -20,8 +20,9 @@ const Contact = () => {
         <ContactSectionContent>
           <Heading line1={'Wanna'} line2={`Get In Touch`} />
           <ContactSocial>
-            {icons.map(icon => (
+            {icons.map((icon) => (
               <SocialMedia
+                key={icon.id}
                 name={icon.name}
                 link={icon.link}
                 url={icon.url}
