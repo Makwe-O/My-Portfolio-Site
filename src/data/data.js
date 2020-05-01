@@ -114,8 +114,8 @@ export const data = [
     description:
       'Converge is a room management platform that enables users book and manage meeting rooms. Users of this platform can decide who attends a meeting, schedule meetings, manage resources in a meeting room such as white boards and marksers, speakers, monitors etc. ',
     stacks: ['Python, Flask, GraphQL'],
-    link: '#',
-    github: '#',
+    link: null,
+    github: null,
   },
 ];
 

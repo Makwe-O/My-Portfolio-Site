@@ -56,7 +56,7 @@ const Portfolio = () => {
                           href={d.link}
                           target='_blank'
                           rel='noopener noreferrer'
-                          className='fromLeft'>
+                          className={`fromLeft ${d.link ? '' : 'disabled'}`}>
                           View Site
                         </a>
                         <a
