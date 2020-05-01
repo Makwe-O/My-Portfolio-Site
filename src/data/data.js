@@ -57,6 +57,7 @@ export const data = [
       'HTML5',
       'CSS3',
       'JavaScript',
+      'Postgres',
     ],
     link: 'https://storemangerreact.herokuapp.com/',
     github: 'https://github.com/Makwe-O/store-manager-react',
@@ -104,6 +105,17 @@ export const data = [
     stacks: ['HTML5, CSS3, Vuejs'],
     link: 'https://vuenotes.netlify.com/',
     github: 'https://github.com/Makwe-O/Vue-Notes',
+  },
+  {
+    id: 9,
+    name: 'Converve',
+    img:
+      'https://res.cloudinary.com/dnavbc7ny/image/upload/e_grayscale/v1588368554/Dark_Tablet_wjpdic.png',
+    description:
+      'Converge is a room management platform that enables users book and manage meeting rooms. Users of this platform can decide who attends a meeting, schedule meetings, manage resources in a meeting room such as white boards and marksers, speakers, monitors etc. ',
+    stacks: ['Python, Flask, GraphQL'],
+    link: '#',
+    github: '#',
   },
 ];
 
