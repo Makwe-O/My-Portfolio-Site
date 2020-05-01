@@ -7,9 +7,9 @@ export const SkillsSection = styled.section`
   margin: 3em 0;
 `;
 export const SkillsSectionContent = styled.div`
-  margin: auto 0 auto 10rem;
+  margin: 7rem 0 7rem 10rem;
   @media (max-width: 768px) {
-    margin: auto 0 auto 5rem;
+    margin: 4rem 0 4rem 5rem;
   }
   @media (max-width: 480px) {
     margin: auto 0 auto 1rem;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 export const ContactSection = styled.section`
   min-height: 100vh;
   display: flex;
@@ -16,7 +16,7 @@ export const ContactSectionContent = styled.div`
   }
 `;
 export const ContactSpan = styled.span`
-  font-family: "Reenie Beanie", cursive;
+  font-family: 'Reenie Beanie', cursive;
 `;
 
 export const ContactSocial = styled.div`

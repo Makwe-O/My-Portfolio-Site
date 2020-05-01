@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 export const NavContainer = styled.div`
   display: flex;
   margin: 1.5em 0;
@@ -11,6 +11,7 @@ export const NavContainer = styled.div`
 `;
 export const NavUnorderedList = styled.ul`
   display: flex;
+  padding: 0px;
 `;
 
 export const NavItem = styled.li`

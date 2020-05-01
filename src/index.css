@@ -404,3 +404,7 @@ a:hover {
   opacity: 0.5;
   text-decoration: none;
 }
+
+ul {
+  padding: 0;
+}

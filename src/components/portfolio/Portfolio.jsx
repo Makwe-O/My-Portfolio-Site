@@ -6,6 +6,7 @@ import {
   PortfolioSpan,
   PortfolioModal,
   PortfolioLink,
+  PortfolioSectionGrid,
 } from './Portfolio.styles';
 import Heading from '../heading/Heading';
 import { data } from '../../data/data';
@@ -22,7 +23,7 @@ const Portfolio = () => {
         <PortfolioSpan>{`<section>`}</PortfolioSpan>
         <PortfolioSectionContent>
           <Heading line1={'Portfolio'} />
-          <div className='ui stackable four column grid'>
+          <PortfolioSectionGrid>
             {data.map((d) => (
               <div className='column' key={d.id}>
                 <Modal
@@ -72,7 +73,7 @@ const Portfolio = () => {
                 </Modal>
               </div>
             ))}
-          </div>
+          </PortfolioSectionGrid>
         </PortfolioSectionContent>
         <PortfolioSpan>{`</section>`}</PortfolioSpan>
       </PortfolioSection>
