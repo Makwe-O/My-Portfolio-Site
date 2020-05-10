@@ -23,4 +23,5 @@ export const CardContent = styled.div`
   padding-right: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  text-align: center;
 `;

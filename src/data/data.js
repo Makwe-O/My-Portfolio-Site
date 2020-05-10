@@ -117,6 +117,17 @@ export const data = [
     link: null,
     github: null,
   },
+  {
+    id: 10,
+    name: 'WeGlobalNow',
+    img:
+      'https://res.cloudinary.com/dnavbc7ny/image/upload/e_grayscale/v1589035171/restcountry_skuc75.png',
+    description:
+      'Web Application that shows the details of countries around the world',
+    stacks: ['React, SASS, Styled Components'],
+    link: 'https://weglobalnow.netlify.app/',
+    github: 'https://github.com/Makwe-O/react-storybook',
+  },
 ];
 
 export const icons = [
