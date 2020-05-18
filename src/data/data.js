@@ -128,6 +128,17 @@ export const data = [
     link: 'https://weglobalnow.netlify.app/',
     github: 'https://github.com/Makwe-O/react-storybook',
   },
+  {
+    id: 11,
+    name: 'PWA BitCoin Converter',
+    img:
+      'https://res.cloudinary.com/dnavbc7ny/image/upload/e_grayscale/v1589658446/PWA_v5gqud.png',
+    description:
+      'Web Application shows the equivalent bitcoin convertion of various currencies',
+    stacks: ['React, ChakraUI'],
+    link: 'https://pwa-converter.notmaks.now.sh',
+    github: 'https://github.com/Makwe-O/PWA---Converter',
+  },
 ];
 
 export const icons = [
