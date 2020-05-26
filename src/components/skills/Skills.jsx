@@ -1,12 +1,13 @@
 import React from 'react';
-import { Progress } from 'semantic-ui-react';
 import Heading from '../heading/Heading';
 import Particles from 'react-particles-js';
 import { particlesOptions } from '../../data/particles';
 import {
   SkillsSection,
   SkillsSectionContent,
-  SkillsSpan
+  SkillsSpan,
+  SkillsSectionContentList,
+  SkillsSectionContentText,
 } from './Skills.styles';
 import { skills } from '../../data/data';
 
@@ -22,13 +23,11 @@ const Skills = () => {
             line2={`Current Skills`}
             line4={'This list is subject to change'}
           />
-          <div>
-            {skills.map(skill => (
-              <Progress percent={skill.percentage} active key={skill.id}>
-                {skill.name}
-              </Progress>
+          <SkillsSectionContentList>
+            {skills.map((skill) => (
+              <SkillsSectionContentText> {skill.name}</SkillsSectionContentText>
             ))}
-          </div>
+          </SkillsSectionContentList>
         </SkillsSectionContent>
         <SkillsSpan>{`</section>`}</SkillsSpan>
       </SkillsSection>

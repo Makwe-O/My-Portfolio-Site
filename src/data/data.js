@@ -191,52 +191,42 @@ export const skills = [
   {
     id: 1001,
     name: 'React',
-    percentage: 70,
   },
   {
     id: 1000,
     name: 'React Native',
-    percentage: 50,
   },
 
   {
     id: 1002,
-    name: 'Vue',
-    percentage: 50,
+    name: 'Vue.js',
   },
   {
     id: 1003,
     name: 'Redux',
-    percentage: 70,
   },
   {
     id: 1004,
-    name: 'Express',
-    percentage: 60,
+    name: 'Express.js',
   },
   {
     id: 1005,
-    name: 'HTML 5',
-    percentage: 70,
+    name: 'HTML 5/CSS3',
   },
-  {
-    id: 1006,
-    name: 'CSS',
-    percentage: 70,
-  },
+  // {
+  //   id: 1006,
+  //   name: 'CSS3',
+  // },
   {
     id: 1007,
     name: 'JavaScript',
-    percentage: 75,
   },
   {
     id: 1008,
     name: 'Nodejs',
-    percentage: 60,
   },
   {
     id: 1009,
     name: 'Python',
-    percentage: 45,
   },
 ];

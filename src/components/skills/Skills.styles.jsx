@@ -15,6 +15,17 @@ export const SkillsSectionContent = styled.div`
     margin: auto 0 auto 1rem;
   }
 `;
+export const SkillsSectionContentList = styled.div`
+  display: grid;
+  column-gap: 3rem;
+  row-gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+`;
+export const SkillsSectionContentText = styled.h3`
+  font-size: 2rem;
+  margin: 0px;
+`;
+
 export const SkillsSpan = styled.span`
   font-family: 'Reenie Beanie', cursive;
 `;
