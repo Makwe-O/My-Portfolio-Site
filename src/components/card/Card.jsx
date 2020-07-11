@@ -5,11 +5,7 @@ const Card = ({ img, projectName }) => {
   return (
     <CardContainer>
       <CardImage src={img} alt={projectName} />
-      <CardContent className='content'>
-        <a href='#' className='header'>
-          {projectName}
-        </a>
-      </CardContent>
+      <CardContent className="content">{projectName}</CardContent>
     </CardContainer>
   );
 };
