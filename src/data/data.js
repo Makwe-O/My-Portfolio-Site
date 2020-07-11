@@ -139,6 +139,17 @@ export const data = [
     link: 'https://pwa-converter.notmaks.now.sh',
     github: 'https://github.com/Makwe-O/PWA---Converter',
   },
+  {
+    id: 12,
+    name: 'Eden Dog Ceo',
+    img:
+      'https://res.cloudinary.com/dnavbc7ny/image/upload/e_grayscale/v1594499459/dog_mtxzke.png',
+    description:
+      'A web app for all dog lovers. It leverages the dog ceo api to fetch cute pictures of dogs to warm your heart',
+    stacks: ['React, HTML, CSS, SASS'],
+    link: 'https://eden-dog-ceo.netlify.app/',
+    github: 'https://github.com/Makwe-O/eden-dog-ceo',
+  },
 ];
 
 export const icons = [
