@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <>
       <Particles params={particlesOptions} />
-      <SkillsSection id='skills'>
+      <SkillsSection id="skills">
         <SkillsSpan>{`<section>`}</SkillsSpan>
         <SkillsSectionContent>
           <Heading
@@ -24,8 +24,11 @@ const Skills = () => {
             line4={'This list is subject to change'}
           />
           <SkillsSectionContentList>
-            {skills.map((skill) => (
-              <SkillsSectionContentText> {skill.name}</SkillsSectionContentText>
+            {skills.map((skill, index) => (
+              <SkillsSectionContentText key={index}>
+                {' '}
+                {skill.name}
+              </SkillsSectionContentText>
             ))}
           </SkillsSectionContentList>
         </SkillsSectionContent>
